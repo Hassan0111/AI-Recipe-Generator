@@ -6,7 +6,7 @@ from recipe_utils import is_valid_input, parse_ingredients_from_text
 
 # --- Page Configuration ---
 st.set_page_config(
-    page_title="AI Recipe Suggester",
+    page_title="BANAO AI Recipe",
     page_icon="🍲",
     layout="wide",
     initial_sidebar_state="expanded",
