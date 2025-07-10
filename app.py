@@ -137,5 +137,5 @@ elif st.session_state.generated_recipe:
             st.session_state.generated_recipe += f"\n\n---\n\n**Your Question:** {follow_up_prompt}\n\n**Chef's Answer:** {response}"
             st.rerun() # Rerun to show the new answer
 else:
-    st.info("Your recipe will appear here once you provide ingredients and click 'Generate'.")
+    st.info("Your recipe will appear here once you provide ingredients & click 'Generate'.")
 
