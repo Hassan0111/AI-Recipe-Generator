@@ -25,7 +25,7 @@ if 'is_loading' not in st.session_state:
 
 # --- Sidebar ---
 with st.sidebar:
-    st.title("🍲 AI Recipe Suggester")
+    st.title("BANAO - AI Recipe Suggester")
     st.markdown("""
     Welcome! I'm your AI Chef. Tell me what ingredients you have, and I'll suggest a delicious recipe for you, complete with Pakistani cultural context.
     """)
